@@ -1,0 +1,60 @@
+html,body{
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'KoHo', sans-serif;
+}
+
+.courseheight{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*bootstrap overwright*/
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.col-marginzero{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.col-marginfive{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col-marginten{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*bootstrap overwright*/
+
+/*Default Classes*/
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+/*Default Classes*/
+
+.header{
+    background: #f0f0f0;
+    height: 50px;
+    border-block-end: 1px solid #ddd;
+    width: 100%;
+}
+
+.menu-pnnel{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe61c6+0,fcd467+100 */
+    background: #fe61c6; /* Old browsers */
+    background: -moz-linear-gradient(top, #fe61c6 0%, #fcd467 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fe61c6 0%,#fcd467 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fe61c6 0%,#fcd467 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe61c6', endColorstr='#fcd467',GradientType=0 ); /* IE6-9 */
+    box-shadow: 0 0px 15px 0 rgba(0,0,0,0.2);
+}
+
+.coursepanel{
+    position: absolute;
+    top:150px;
+    left: 250px;
+}
